@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['airbnb', 'plugin:react/recommended'],
+  extends: ['airbnb', 'plugin:react/recommended', './base'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
