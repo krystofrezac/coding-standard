@@ -1,5 +1,6 @@
 # Coding standard
 ## Typescript
+> Script: `eslint '*/**/*.{ts,tsx,js}' --fix`
 ### `.eslintrc.js`
 ```js
 module.exports = {
@@ -10,5 +11,5 @@ module.exports = {
 
 ### `prettier.config.js`
 ```js
-module.exports = require('@ticovladnou/shared/codingStandard/prettier');
+module.exports = require('@krystofrezac/coding-standard/ts/prettier.js');
 ```

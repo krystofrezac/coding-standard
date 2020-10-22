@@ -71,6 +71,7 @@ module.exports = {
         allowTypedFunctionExpressions: true,
       },
     ],
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
     '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/typedef': [
       'error',
