@@ -16,6 +16,9 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'import'],
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
     'import/resolver': {
       typescript: {},
     },
