@@ -14,12 +14,10 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint'],
   settings: {
     'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-      },
+      typescript: {},
     },
   },
   rules: {
@@ -37,7 +35,7 @@ module.exports = {
     'no-unused-expressions': 'off',
     'no-useless-constructor': 'off',
     'no-underscore-dangle': 'off',
-    'no-undef': 'off',
+    'no-undef': 'error',
     'no-use-before-define': 'off',
     'import/extensions': [
       'error',

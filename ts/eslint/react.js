@@ -6,23 +6,7 @@ module.exports = {
     jest: true,
   },
   extends: ['airbnb', 'plugin:react/recommended', './base'],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2020,
-    sourceType: 'module',
-  },
-  plugins: ['react', '@typescript-eslint', 'import'],
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-    'import/resolver': {
-      typescript: {},
-    },
-  },
+  plugins: ['react'],
   rules: {
     'react/prop-types': 'off',
     'react/destructuring-assignment': 'off',
