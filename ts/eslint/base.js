@@ -24,6 +24,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'newline-before-return': 'warn',
     'spaced-comment': 'warn',
+    'no-undef': 'off',
     'no-alert': 'error',
     'no-console': 'error',
     'no-plusplus': 'off',
@@ -35,7 +36,6 @@ module.exports = {
     'no-unused-expressions': 'off',
     'no-useless-constructor': 'off',
     'no-underscore-dangle': 'off',
-    'no-undef': 'error',
     'no-use-before-define': 'off',
     'import/extensions': [
       'error',
