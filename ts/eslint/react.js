@@ -16,5 +16,6 @@ module.exports = {
       'error',
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
+    'react/jsx-indent': 'off',
   },
 };
